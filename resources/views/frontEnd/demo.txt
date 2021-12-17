@@ -1,0 +1,64 @@
+<!-- ======== Slider start ============ -->
+    <div class="hero-slider" id="home" style=" margin-top: 52px;" data-aos="fade-up">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active slider-color">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7 col-7">
+                            <h2>Welcome To
+                                <br><span>Wasi Soft Technology</span>
+                            </h2>
+                            <p>WasiSoft Technology has been providing technology solutions to <br>solve specific business problems.</p>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-5">
+                            <div class="w3-container  w3-animate-zoom ">
+                                <img src="assets/pic/Web-Development.png" class="float-left" alt="Car" style="width:100%; ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item slider-color2">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7 col-7">
+                            <h2>Mobile App Development
+                            </h2>
+                            <p>Mobile App Development for particular business requirements to<br> enhance functionality, efficiency and value addition.
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-5">
+                            <div class="w3-container  w3-animate-zoom">
+                                <img src="assets/pic/App-Development.png" alt="Car" style="width:67%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item slider-color3">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7 col-7">
+                            <h2 class="text-warning">Digital Marketing
+                            </h2>
+                            <p class="text-light">Planning persistent digital marketing activities</p>
+                            <p>We plan persistent digital marketing activities through which consumers can access to available information of any business websites from any place in any time.
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-5">
+                            <div class="w3-container  w3-animate-zoom">
+                                <img src="assets/pic/Digital-Media.png" alt="Car" style="width:70%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev ml-5 prev " href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next  next mr-5" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- end SLider -->

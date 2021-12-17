@@ -1,0 +1,202 @@
+    /* ============================================================
+part1 : WebdepServices
+=================================================================*/
+    /* -----------
+Hero section
+---------- */
+    
+    .web_hero {
+        background-image: url("../../assets/pic/services/hero_img.jpg");
+        /* height: 100%; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* height: 300px; */
+    }
+    
+    .web_hero h1 {
+        font-style: italic;
+        font-weight: 700;
+        font-family: poppins;
+        color: rgb(23, 29, 117);
+        padding-top: 40px;
+    }
+    
+    .web_hero h3 {
+        font-size: large;
+        font-style: italic;
+        color: #353535;
+    }
+    
+    @media (max-width:786px) {
+        .web_hero img {
+            width: 100%;
+            float: none;
+        }
+    }
+    
+    .web_hero h3 span {
+        color: #245ebb
+    }
+    
+    .web_hero img {
+        width: 60%;
+        /* float: right; */
+    }
+    
+    @media (max-width: 786px) {
+        .web_hero h1 {
+            font-size: 20px;
+        }
+    }
+    /* -----------
+nextLevel section
+---------- */
+    
+    .nextLevel h1,
+    .leadingDep h1 {
+        font-size: 44px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 0 4px 4px #6e6d6d;
+        color: #245ebb;
+        border: #000;
+    }
+    
+    @media (max-width:777px) {
+        .nextLevel h1,
+        .leadingDep h1 {
+            font-size: 32px;
+        }
+    }
+    
+    .nextLevel p {
+        font-size: 18px;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        color: #2b2c2e;
+        font-weight: 700;
+    }
+    
+    .nextLevel ul li {
+        font-size: 18px;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        color: #2b2c2e;
+        font-weight: 700;
+    }
+    
+    #first_h {
+        color: rgb(0, 39, 124);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    /* @media screen and (max-width: 768px) {
+        .nextLevel img {
+            width: 60%;
+        }
+    } */
+    /* --------------------------
+responsiveCards
+------------------------------ */
+    
+    #responsiveCards h2 {
+        font-size: 32px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 0 4px 2px #b6b4b4;
+        color: #245ebb;
+    }
+    
+    #responsiveCards .card {
+        border: none;
+    }
+    /* --------------------
+# .leadingDep 
+-----------------------*/
+    
+    .leadingDep h1 {
+        padding-bottom: 60px;
+    }
+    
+    .lagi-carousel h2 {
+        color: #0f0758;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .lagi-carousel img {
+        height: 210px;
+        width: auto;
+    }
+    
+    @media (max-width: 1111px) {
+        .lagi-carousel img {
+            height: 180px;
+            width: auto;
+        }
+    }
+    
+    @media (max-width:777px) {
+        .leadingDep h1 {
+            padding-bottom: 40px;
+        }
+        .lagi-carousel h2 {
+            padding-top: 10px;
+            font-size: 20px;
+        }
+        .lagi-carousel img {
+            height: 170px;
+            width: auto;
+        }
+    }
+    
+    @media (max-width:517px) {
+        .lagi-carousel h2 {
+            padding-top: 10px;
+            font-size: 18px;
+        }
+        .lagi-carousel img {
+            height: 180px;
+            width: auto;
+        }
+    }
+    /* --------------------
+portfolioServices
+-------------------- */
+    
+    #owl-demo .item {
+        margin: 3px;
+    }
+    
+    #owl-demo .item img {
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .portfolioService h1 {
+        color: #0d2374;
+        font-size: 2.7vw;
+        font-family: Poppins, sans-serif;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+    
+    @media (max-width:777px) {
+        .portfolioService h1 {
+            font-size: 24px;
+        }
+    }
+    /* ======================================================================
+page2 : Mobile App service MobAppServices
+===================================================================*/
+    
+    .app_hero img {
+        width: 30%;
+        height: auto;
+    }
+    /* ======================================================================
+page3: Digital Marketing Services
+===================================================================*/
+    
+    .digi_hero img {
+        width: 40%;
+        height: auto;
+    }
